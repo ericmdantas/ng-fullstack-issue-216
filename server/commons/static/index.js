@@ -7,7 +7,7 @@ export default class StaticDispatcher {
 
       res.type('.html');
 
-      fs.createReadStream(path.join(_root, '/client/dev/index.html'))
+      fs.createReadStream(path.join(_root, '/client/dist/index.html'))
         .pipe(res);
     }
 }
