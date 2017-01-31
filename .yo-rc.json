@@ -1,0 +1,12 @@
+{
+  "generator-ng-fullstack": {
+    "username": "ericmdantas",
+    "appName": "ng-fullstack-issue-216",
+    "stack": "fullstack",
+    "server": "node",
+    "client": "ng1",
+    "transpilerServer": "babel",
+    "secure": false,
+    "differentStaticServer": false
+  }
+}

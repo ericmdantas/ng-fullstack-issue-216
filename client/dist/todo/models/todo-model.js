@@ -1,0 +1,1 @@
+!function(t){"use strict";t.module("ng-fullstack-issue-216").factory("Todo",[function(){var s=function(s){this.todoMessage=null,t.extend(this,s)},e=5;return s.prototype.isValid=function(){var s=t.isDefined(this.todoMessage),o=t.isString(this.todoMessage),i=!(!s||!o)&&this.todoMessage.length>=e;return s&&o&&i},s}])}(window.angular);

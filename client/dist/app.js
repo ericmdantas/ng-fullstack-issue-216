@@ -1,0 +1,1 @@
+!function(s){"use strict";s.module("ng-fullstack-issue-216",["ngResource","ngRoute","ngMessages"])}(window.angular);

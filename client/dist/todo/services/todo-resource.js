@@ -1,0 +1,1 @@
+!function(o){"use strict";o.module("ng-fullstack-issue-216").factory("TodoResource",["$resource",function(o){var u="/api/todos/:id",r={},e={};return o(u,r,e)}])}(window.angular);

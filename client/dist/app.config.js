@@ -1,0 +1,1 @@
+!function(n){"use strict";n.module("ng-fullstack-issue-216").config(["$locationProvider",function(n){n.html5Mode(!0)}])}(window.angular);
