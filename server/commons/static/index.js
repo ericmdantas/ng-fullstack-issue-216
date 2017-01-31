@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 
 export default class StaticDispatcher {
     static sendIndex(req, res) {
@@ -6,7 +7,7 @@ export default class StaticDispatcher {
 
       res.type('.html');
 
-      fs.createReadStream(_root + '/client/dev/index.html')
+      fs.createReadStream(path.join(_root, '/client/dev/index.html'))
         .pipe(res);
     }
 }
